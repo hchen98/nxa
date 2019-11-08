@@ -29,7 +29,7 @@ $ donkey calibrate --channel x/x
 ```
 2. Drive the Pi:
 ```bash
-python drive.py
+$ python drive.py
 ```
 3. View the drive control panel on host computer:
 Opening your web broswer and typing your Pi's IP address and port *`8887`*
