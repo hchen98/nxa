@@ -1,5 +1,9 @@
 # nxa (self-driving car based on Donkey<sup>®</sup> Car project)
-A RC car based on ROS, Raspberry Pi, Keras, and Donkey Car API
+An RC car based on ROS, Raspberry Pi, Keras, and Donkey Car API
+
+**Demo**:
+
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/cA7kywWOXXk/0.jpg)](https://www.youtube.com/watch?v=cA7kywWOXXk)
 
 ---
 <h4>Requirements:</h4>
@@ -10,14 +14,26 @@ A RC car based on ROS, Raspberry Pi, Keras, and Donkey Car API
 -   Magnet Car or alternative
 -   ROS/ Raspbian Lite
 -   3D printed parts
+
 <hr>
 
-<h4>Brief Hardware View:</h4>
+<h4>Brief Hardware Part View:</h4>
 <img src="https://github.com/879099766/nxa/blob/master/Wire%20Connection.png">
 
 <hr>
-
 <h4>Collecting Data:</h4>
+
+1. Collbrate with Pi:
+```bash
+$ donkey calibrate --channel x/x
+```
+2. Drive the Pi:
+```bash
+python drive.py
+```
+3. View the drive control panel on host computer:
+Opening your web broswer and typing your Pi's IP address and port *`8887`*
+e.g., `127.0.0.1:8887`
 
 <hr>
 
