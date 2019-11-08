@@ -17,7 +17,7 @@ An RC car based on ROS, Raspberry Pi, Keras, and Donkey<sup>®</sup> Car API
 
 <hr>
 
-<h4>Brief Hardware Part View:</h4>
+<h4>Brief View of Hardware Setup:</h4>
 <img src="https://github.com/879099766/nxa/blob/master/Wire%20Connection.png">
 
 <hr>
