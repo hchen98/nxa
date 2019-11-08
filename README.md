@@ -1,5 +1,5 @@
-# nxa (self-driving car based on Donkey<sup>®</sup> Car project)
-An RC car based on ROS, Raspberry Pi, Keras, and Donkey Car API
+# nxa
+An RC car based on ROS, Raspberry Pi, Keras, and Donkey<sup>®</sup> Car API
 
 **Demo**:
 
