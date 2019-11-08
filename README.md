@@ -33,7 +33,6 @@ $ python drive.py
 ```
 3. View the drive control panel on host computer:
 Opening your web broswer and typing your Pi's IP address and port *`8887`*
-
 e.g., `127.0.0.1:8887`
 
 
